@@ -5,10 +5,8 @@ python-multipart~=0.0.20
 sqlalchemy~=2.0.41
 psycopg2-binary~=2.9.10
 asyncpg
-python-dotenv       # to manage DB credentials via .env
+python-dotenv       
 python-jose~=3.4.0
-passlib[bcrypt]~=1.7.4
-python-magic-bin    # optional for MIME type checking
 
 h11~=0.16.0
 pip~=25.0.1
