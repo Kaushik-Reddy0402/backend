@@ -18,7 +18,7 @@ def on_startup():
     create_db_and_tables()
 
 origins = [
-    "http://localhost/5173",
+    "http://16.171.25.216/5173",
 ]
 app.add_middleware(
     CORSMiddleware,
